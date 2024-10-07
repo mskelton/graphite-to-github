@@ -1,0 +1,14 @@
+{
+  "id": "redirect_to_github_pr",
+  "priority": 1,
+  "condition": {
+    "regexFilter": "^https://app\\.graphite\\.dev/(?:github/pr|submit)/([^/]+/[^/]+)/(\\d+)",
+    "resourceTypes": ["main_frame"]
+  },
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "regexSubstitution": "https://github.com/\\1/pull/\\2"
+    }
+  }
+}

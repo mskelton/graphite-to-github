@@ -1,0 +1,15 @@
+{
+  "name": "Graphite to GitHub",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["declarativeNetRequest"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
