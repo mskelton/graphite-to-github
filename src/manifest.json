@@ -3,6 +3,7 @@
   "version": "1.0",
   "manifest_version": 3,
   "permissions": ["declarativeNetRequest"],
+  "host_permissions": ["https://app.graphite.dev/*"],
   "declarative_net_request": {
     "rule_resources": [
       {
