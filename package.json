@@ -1,5 +1,8 @@
 {
   "name": "graphite-to-github",
+  "scripts": {
+    "package": "zip -r graphite-to-github.zip src/** -x '*/_metadata/*'"
+  },
   "devDependencies": {
     "prettier": "^3.3.3"
   }
