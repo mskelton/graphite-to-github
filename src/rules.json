@@ -3,8 +3,9 @@
     "id": 1,
     "priority": 1,
     "condition": {
-      "regexFilter": "^https://app\\.graphite\\.dev/(?:github/pr|submit)/([^/]+/[^/]+)/(\\d+)",
-      "resourceTypes": ["main_frame"]
+      "regexFilter": "^https://app\\.graphite\\.dev/github/pr/([^/]+/[^/]+)/(\\d+)",
+      "resourceTypes": ["main_frame"],
+      "excludedInitiatorDomains": ["app.graphite.dev", "github.com"]
     },
     "action": {
       "type": "redirect",
