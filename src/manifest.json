@@ -12,7 +12,7 @@
     "512": "images/icon@512.png"
   },
   "permissions": ["declarativeNetRequest"],
-  "host_permissions": ["https://app.graphite.dev/*"],
+  "host_permissions": ["https://app.graphite.com/*"],
   "declarative_net_request": {
     "rule_resources": [
       {
